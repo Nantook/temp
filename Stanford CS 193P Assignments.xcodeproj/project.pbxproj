@@ -30,14 +30,14 @@
 		CE23C9FE1A9437F400298F75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE23CA001A9437F500298F75 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CE23CA031A9437F500298F75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		CE23CA1A1A943FE000298F75 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = ../Card.h; sourceTree = "<group>"; };
-		CE23CA1B1A943FE000298F75 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = ../Card.m; sourceTree = "<group>"; };
+		CE23CA1A1A943FE000298F75 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		CE23CA1B1A943FE000298F75 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
 		CE23CA1D1A94433800298F75 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
 		CE23CA1E1A94433800298F75 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
 		CE5C00CD1A944FA3007BE443 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
 		CE5C00CE1A944FA3007BE443 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
-		CE5C00D31A945374007BE443 /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCardDeck.h; path = ../PlayingCardDeck.h; sourceTree = "<group>"; };
-		CE5C00D41A945374007BE443 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCardDeck.m; path = ../PlayingCardDeck.m; sourceTree = "<group>"; };
+		CE5C00D31A945374007BE443 /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
+		CE5C00D41A945374007BE443 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +70,7 @@
 		CE23C9F21A9437F400298F75 /* Assignment 1 (Matchismo) */ = {
 			isa = PBXGroup;
 			children = (
-				CE5C00D61A94548F007BE443 /* Model */,
+				CE60182B1A9669D60032E289 /* Model */,
 				CE23C9FA1A9437F400298F75 /* ViewController.h */,
 				CE23C9FB1A9437F400298F75 /* ViewController.m */,
 				CE23C9FD1A9437F400298F75 /* Main.storyboard */,
@@ -92,7 +92,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		CE5C00D61A94548F007BE443 /* Model */ = {
+		CE60182B1A9669D60032E289 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				CE5C00D31A945374007BE443 /* PlayingCardDeck.h */,
