@@ -37,17 +37,28 @@
 
 - (IBAction)touchCardButton:(UIButton *)sender
 {
+    Card *tempCard = [self.theDeck drawRandomCard];
     if ([sender.currentTitle length])
     {
-        [sender setBackgroundImage:[UIImage imageNamed:@"cardBack"] forState:UIControlStateNormal];
-        [sender setTitle:@"" forState:UIControlStateNormal];
+        if (tempCard)
+        {
+            [sender setBackgroundImage:[UIImage imageNamed:@"cardBack"] forState:UIControlStateNormal];
+            [sender setTitle:@"" forState:UIControlStateNormal];
+            [self.theDeck addCard:tempCard]; // re-add unused card to deck
+        }
+        else
+        {
+            [sender setHidden:YES];
+        }
+
     }
     else
     {
         [sender setBackgroundImage:[UIImage imageNamed:@"cardFront"] forState:UIControlStateNormal];
-        Card *tempCard = self.theDeck.drawRandomCard;
         if (tempCard)
             [sender setTitle:tempCard.contents forState:UIControlStateNormal];
+        else
+            [sender setHidden:YES];
     }
     self.flipCount++;
 }
